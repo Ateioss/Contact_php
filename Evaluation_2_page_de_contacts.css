@@ -1,0 +1,233 @@
+*{
+    box-sizing: border-box;
+}
+
+.header {
+    background-color: #D9D9D9;
+    padding: 10px;
+    border-bottom: black 3px solid;  
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    text-align: center;
+    align-items: center;
+}
+
+.main{
+    background-color: #D9D9D9;
+    display: flex;
+    flex-direction: row;
+}
+
+.bloc-liste-contacts{
+    width: 30%;
+    padding: 20px;
+    border-right: black solid 3px;
+    
+    
+}
+
+.bloc-info-contact{
+    width: 70%;
+   
+}
+
+.bloc-info-contact-header{
+    background-color: #3C64CB;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.bloc-info-contact-main{
+    background-color: #D9D9D9;
+    padding: 20px;
+   
+
+}
+.photo-contact{
+    border-radius: 50%;
+    width: 60px;
+    
+}
+.texte-blanc{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: x-large;
+}
+.contact-info{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+    border-bottom: black solid 1px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 50px;
+}
+.texte-noir{
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: x-large;
+    width: 20%;
+}
+.bloc-info-contact-form{
+    background-color: #3C64CB;
+    padding: 10px;
+    border-radius: 20px; 
+    opacity: 70%;
+    width: 70%;
+    margin: auto;
+}
+.affichage-info{
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px;
+    width:50%;
+}
+.image-logo{
+    width: 80px;
+}
+
+.logo-contacts{
+    border-bottom: black solid 1px;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    padding-bottom: 10px;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+.logo-pour-le-contact{
+    width: 100px;
+}
+.texte-contacts{
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: x-large;
+    border-bottom: black solid 1px;
+    padding: 10px;
+    display: block;
+}
+.contact-box{
+    text-decoration: none;
+    border: 2px solid #3C64CB;
+    border-radius: 33px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+    padding: 10px;    
+    display: block;
+    width: 50%;
+    margin-top: 50px;
+    text-align: center;
+}
+.contact-box:hover{
+    background-color: #3C64CB;  
+    color:whitesmoke;
+    
+}
+.footer{
+    background-color: #403c3c;
+    padding: 50px;
+}
+.mode-dark-button{
+    text-decoration: none;
+    border: 2px solid #3C64CB;
+    border-radius: 33px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+    padding: 10px;
+    display: block;
+    width: 150px;
+    background-color: #D9D9D9;
+    text-align: center;
+    margin: auto;
+}
+.mode-dark-button:hover{
+    background-color: #3C64CB;  
+    color:whitesmoke;
+    cursor: pointer;
+}
+.mode-dark{
+    background-color: darkslategray;
+    color: white;
+}
+.bouton-modifier{
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+    border: 2px solid #3C64CB;
+    border-radius: 33px;
+    font-size: larger;
+    padding: 10px;
+    display: block;
+    width: 150px;
+    background-color: #D9D9D9;
+    text-align: center;
+    margin: auto;
+}
+input[type=email],input[type=text]{
+    display: block;
+    margin: auto;
+    border-radius: 33px;
+    background-color: #ABB5BC;
+    padding: 20px;
+    border: none;
+    margin-bottom: 30px;
+    width:60%;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+}
+input[type=submit]{
+    display: block;
+    margin: auto;
+    border-radius: 33px;
+    background-color: #ABB5BC;
+    padding: 20px;
+    width:50%;
+    border: solid #6482D0 1px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+}
+input[type=submit]:hover{
+    background-color: #3C64CB;
+    color: ivory;
+}
+.cacher{
+    display: none;
+}
+.bloc-form-creation{
+    background-color: #D9D9D9;
+    padding: 20px;
+   
+}
+
+.form-creation{
+    background-color: #3C64CB;
+    padding: 10px;
+    border-radius: 20px; 
+    opacity: 70%;
+    width: 70%;
+    margin: auto;
+    
+}
+.zone-commande{
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    margin: auto;
+    margin-top: 15px;
+}
+.bloc-form-modification{
+    background-color: #D9D9D9;
+    padding: 20px;
+   
+}
+.form-modification{
+    background-color: #3C64CB;
+    padding: 10px;
+    border-radius: 20px; 
+    opacity: 70%;
+    width: 70%;
+    margin: auto;
+    
+}
